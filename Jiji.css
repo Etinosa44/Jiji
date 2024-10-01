@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+#header {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+#about-jigisimur {
+    background-color: #fd6a6a;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+#our-services {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 7rem 20rem;
+}
+
+#send-us-a-message {
+    background-color: rgb(40, 40, 40);
+    text-align: center;
+    padding: 10rem 20rem;
+}
+
+#contact-us {
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    text-align: center;
+}
+
+.button {
+    padding: 1rem 3rem;
+    border: 2px solid rgb(46, 132, 0);
+}
+
+.button:hover {
+    border: 2px solid rgb(0, 0, 0);
+    transition-duration: 300ms;
+}
+
+.services {
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+}
+
+.service {
+    text-align: start;
+}
+
+.contact {
+    margin-top: 5rem;
+}
+
+.name {
+    display: block;
+    text-align: start;
+}
+
+.email {
+    display: block;
+    text-align: start;
+}
+
+.message {
+    display: block;
+    text-align: start;
+}
+
+h1 {
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 8rem;
+    margin-bottom: -1rem;
+    margin-top: -4rem;
+    color: rgb(155, 0, 0);
+}
+
+h1.num {
+    font-weight: 400;
+    letter-spacing: -3px;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 2rem;
+    color: rgb(54, 54, 54);
+}
+
+h2.message {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: center;
+}
+
+h2.contact {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    margin-bottom: 10rem;
+    color: rgb(54, 54, 54);
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: -1px;
+    margin-bottom: 3rem;
+    color: green;
+}
+
+h3.address {
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    margin-bottom: 5rem;
+    color: black;
+}
+
+h5 {
+    font-size: 1rem;
+    color: rgb(54, 54, 54);
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+p.explanation {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+p.muted {
+    color: rgba(255, 255, 255, .5)
+}
+
+p.origin {
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+    text-align: start;
+}
+
+p.price {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(46, 132, 0);
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    transition-duration: 500ms;
+}
+
+ul.abt {
+    margin-bottom: 2rem;
+    text-align : center;
+    align-items: center;
+    align-content: center;
+}
+
+li {
+    list-style: none;
+    text-align: start;
+    margin-bottom: 5px;
+}
+
+li.service {
+    list-style: circle;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
+
+img {
+    background-color: white;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+button {
+    padding: 1rem 10rem;
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+    width: 100%;
+    font-size: 1.3rem;
+    cursor: pointer ;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 300ms;
+}
+
+@media screen and (max-width: 800px) { 
+    #header {
+        padding: 3rem 1rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    
+    #about-jigisimur {
+        background-color: #fd6a6a;
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+    
+    #our-services {
+        background-color: antiquewhite;
+        text-align: center;
+        padding: 5rem 1rem;
+    }
+    
+    #send-us-a-message {
+        background-color: rgb(40, 40, 40);
+        text-align: center;
+        padding: 3rem 1rem;
+    }
+    
+    #contact-us {
+        text-align: center;
+        padding: 2rem 5rem;
+    }
+    
+    label {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    input {
+        color: white;
+        background-color: rgb(74, 74, 74, 0.5);
+        border: none;
+        border-radius: 3px;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        height: 3.5rem;
+    }
+    
+    textarea {
+        color: white;
+        background-color: rgb(74, 74, 74, 0.5);
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        resize: none;
+    }
+    
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+    
+    .button {
+        padding: 1rem;
+        border: 2px solid rgb(46, 132, 0);
+        margin-bottom: 1rem;
+    }
+    
+    .button:hover {
+        border: 2px solid rgb(0, 0, 0);
+        transition-duration: 300ms;
+    }
+    
+    .services {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .service {
+        text-align: start;
+    }
+    
+    .contact {
+        margin-top: 5rem;
+    }
+    
+    .name {
+        display: block;
+        text-align: start;
+    }
+    
+    .email {
+        display: block;
+        text-align: start;
+    }
+    
+    .message {
+        display: block;
+        text-align: start;
+    }
+
+    .btn {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        color: rgb(155, 0, 0);
+    }
+    
+    h1.num {
+        font-weight: 400;
+        letter-spacing: -3px;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        color: black;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+        letter-spacing: -1px;
+        margin-bottom: 1px;
+        color: rgb(54, 54, 54);
+    }
+    
+    h2.message {
+        font-size: 2.5rem;
+        letter-spacing: -1px;
+        margin-bottom: 3rem;
+        color: white;
+        text-align: center;
+    }
+    
+    h2.contact {
+        font-size: 2rem;
+        letter-spacing: -1px;
+        margin-bottom: 10rem;
+        color: rgb(54, 54, 54);
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        letter-spacing: -1px;
+        margin-bottom: 3rem;
+        color: green;
+    }
+    
+    h3.address {
+        font-size: 1.5rem;
+        font-weight: 300;
+        letter-spacing: -1px;
+        margin-bottom: 5rem;
+        color: black;
+    }
+    
+    h5 {
+        font-size: 1.7rem;
+        color: rgb(54, 54, 54);
+    }
+    
+    p {
+        margin-bottom: 2rem;
+    }
+    
+    p.explanation {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        text-align: start;
+    }
+    
+    p.muted {
+        color: rgba(255, 255, 255, .5)
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(46, 132, 0);
+        font-weight: 700;
+    }
+    
+    a:hover {
+        color: rgb(0, 0, 0);
+        transition-duration: 500ms;
+    }
+    
+    ul.abt {
+        margin-bottom: 2rem;
+        text-align : center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    li {
+        list-style: none;
+        text-align: start;
+        margin-bottom: 5px;
+    }
+    
+    img {
+        background-color: white;
+        padding: 20px;
+        border-radius: 3rem;
+        size-adjust: 1px;
+    }
+    
+    button {
+        padding: 1rem 10rem;
+        background-color: transparent;
+        border: white 1px solid;
+        color: white;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+    
+    button:hover {
+        background-color: white;
+        color: black;
+        transition-duration: 300ms;
+    }
+}
