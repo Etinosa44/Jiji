@@ -221,6 +221,24 @@ button:hover {
     transition-duration: 300ms;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+    background-color: #ffffff;
+}
+
 @media screen and (max-width: 800px) { 
     #header {
         padding: 3rem 1rem;
